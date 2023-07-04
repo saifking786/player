@@ -1,0 +1,424 @@
+<!DOCTYPE html>
+<html>
+<!--Begining of head section--> 
+<head>
+	 <title>Music-Player</title>
+	 <!--Linking the CSS stylesheet using extrenal CSS-->
+	 <link rel="stylesheet" type="text/css" href="MusicPlayerStyl.css">
+	 <!--Font Awesome script for using icons from font awesome-->
+	 <script src="https://kit.fontawesome.com/6f0f83005a.js" crossorigin="anonymous"></script>
+	 <!--Adds responsiveness to the website-->
+	 <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1"/>
+</head>
+<!--End of head section-->
+<body>
+	<!--Begining of navigation bar section-->
+	<nav>
+
+		<div class="music-player">
+			<div class="music-player-logo">
+				<img src="https://cdn.pixabay.com/photo/2020/09/07/13/32/music-5551865_1280.jpg">
+			</div>
+			<div class="title-tag">
+				Music
+				<br>
+				<b>
+					Player
+				</b>
+			</div>
+		</div>
+		<div class="search-bar">
+			<div class="serach-bar-utility">
+				<form>
+					<input type="text" id="fname" placeholder="search..." name="fname">
+					<i class="fas fa-search"></i>
+				</form>
+			</div>
+			<div class="notification">
+				<i class="fas fa-bell"></i>
+			</div>
+			<div class="user">
+				<img
+					src="https://media.licdn.com/dms/image/C5603AQF32ogWbjGpZA/profile-displayphoto-shrink_800_800/0/1638118580742?e=2147483647&v=beta&t=sS1F6MNyOtzt8P970KCIasR9cdkAHYRvDpE3bJNxNQI">
+			</div>
+		</div>
+	</nav>
+    <!--End of navigation bar section-->
+
+
+    <!--Main Section-->
+    <main>
+    	<!--Artist Template-->
+    	<div id="artist-template">
+    		<div id="artist-image">
+    		</div><!--Artist Details
+      >--><div id="artist-details">
+      	     <!--Artist Title-->
+      	     <div id="artist-title">
+      	     	<div>
+      	     	   <b>ColdPlay</b>
+      	     	   <br/>
+      	     	   <artist-type>Pop Artist</artist-type>
+      	         </div>
+      	     	<followers>96.7k followers</followers>
+      	      </div>
+              <!--End of Artist Title-->
+              <!--Artist Intro-->
+      	     <div id="artist-intro">
+                  Swedish pop star Tove Styrke is during fall ‘20 part of successful music TV-show ”Så Mycket Bättre” where she is doing some covers of other Swedish artists. She is now also working hard in the studio preparing for releasing her first new original music in a few years during first part of ‘21.
+      	     </div>
+      	     <!--End of Artist Intro-->
+      	     <!--Miscellaneous Buttons-->
+      	      <div id="artist-buttons">
+      	 	<div id="playall-button">
+      	 		Play All
+      	 	</div>
+      	 	<div id="follow-button">
+      	 		Follow
+      	 	</div>
+      	 </div>
+      	 <div id="tracks">
+      	 	247 Tracks | 128 Albums
+      	 </div>
+      	 <!--End of miscellaeous buttons-->
+      	 </div>
+         <!--End of artist details-->
+    	</div>
+    	<!--End of artist template-->
+
+    	<!--Begining of artist songs-->
+    	<div id="artist-songs">
+    		<!--Song 1-->
+    		<div id="song">
+    			<div id="song-number">
+    			    01
+    			    <img src="https://upload.wikimedia.org/wikipedia/en/f/fd/Coldplay_-_Parachutes.png" alt="album image">
+    			    <div id="song-details">
+    			    	Parachutes
+    			    	<br/>
+    			    	<author>ColdPlay</author>
+    			    </div>
+    		    </div>
+    			
+    			<div id="icons">
+    				<i class="far fa-heart"></i>
+    				<i class="fas fa-plus"></i>
+    			</div>
+    		</div>
+    		<!--End of Song 1-->
+    		<!--Song 2-->
+    		<div id="song">
+    			<div id="song-number">
+    			    02
+    			    <img src="https://upload.wikimedia.org/wikipedia/en/6/60/Coldplay_-_A_Rush_of_Blood_to_the_Head_Cover.png" alt="album image">
+    			    <div id="song-details">
+    			    	Rush
+    			    	<br/>
+    			    	<author>ColdPlay</author>
+    			    </div>
+    		    </div>
+    			
+    			<div id="icons">
+    				<i class="far fa-heart"></i>
+    				<i class="fas fa-plus"></i>
+    			</div>
+    		</div>
+    		<!--End of Song 2-->
+    		<!--Song 3-->
+    		<div id="song">
+    			<div id="song-number">
+    			    03
+    			    <img src="https://upload.wikimedia.org/wikipedia/en/thumb/2/28/Coldplay_X%26Y.svg/440px-Coldplay_X%26Y.svg.png" alt="album image">
+    			    <div id="song-details">
+    			    	X&Y
+    			    	<br/>
+    			    	<author>ColdPlay</author>
+    			    </div>
+    		    </div>
+    			
+    			<div id="icons">
+    				<i class="far fa-heart"></i>
+    				<i class="fas fa-plus"></i>
+    			</div>
+    		</div>
+    		<!--End of Song 3-->
+    		<!--Song 4-->
+    		<div id="song">
+    			<div id="song-number">
+    			    04
+    			    <img src="https://upload.wikimedia.org/wikipedia/en/b/b2/Coldplay_-_Viva_la_Vida_or_Death_and_All_His_Friends.png" alt="album image">
+    			    <div id="song-details">
+    			    	Viva la Vida
+    			    	<br/>
+    			    	<author>ColdPlay</author>
+    			    </div>
+    		    </div>
+    			
+    			<div id="icons">
+    				<i class="far fa-heart"></i>
+    				<i class="fas fa-plus"></i>
+    			</div>
+    		</div>
+    		<!--End of Song 4-->
+    		<!--Song 5-->
+    		<div id="song">
+    			<div id="song-number">
+    			    05
+    			    <img src="https://upload.wikimedia.org/wikipedia/en/8/83/Coldplay_-_Mylo_Xyloto_%28Official_Album_Cover%29.png" alt="album image">
+    			    <div id="song-details">
+    			    	Mylo Xyloto
+    			    	<br/>
+    			    	<author>ColdPlay</author>
+    			    </div>
+    		    </div>
+    			
+    			<div id="icons">
+    				<i class="far fa-heart"></i>
+    				<i class="fas fa-plus"></i>
+    			</div>
+    		</div>
+    		<!--End of Song 5-->
+    		<!--Song 6-->
+    		<div id="song">
+    			<div id="song-number">
+    			    06
+    			    <img src="https://upload.wikimedia.org/wikipedia/en/8/8a/Coldplay_-_Ghost_Stories.png" alt="album image">
+    			    <div id="song-details">
+    			    	Ghost Stories
+    			    	<br/>
+    			    	<author>ColdPlay</author>
+    			    </div>
+    		    </div>
+    			
+    			<div id="icons">
+    				<i class="far fa-heart"></i>
+    				<i class="fas fa-plus"></i>
+    			</div>
+    		</div>
+    		<!--End of Song 6-->
+    		<!--Song 7-->
+    		<div id="song">
+    			<div id="song-number">
+    			    07
+    			    <img src="https://upload.wikimedia.org/wikipedia/en/3/3d/Coldplay_-_A_Head_Full_of_Dreams.png" alt="album image">
+    			    <div id="song-details">
+    			    	Dreams
+    			    	<br/>
+    			    	<author>ColdPlay</author>
+    			    </div>
+    		    </div>
+    			
+    			<div id="icons">
+    				<i class="far fa-heart"></i>
+    				<i class="fas fa-plus"></i>
+    			</div>
+    		</div>
+    	</div>
+    	<!--End of Song 7-->
+    </main>
+    <!--End of main section-->
+    
+    <!--Begining of Aside Section-->
+    <aside>
+    	<div id="aside-header-1">
+    		Similar Artists
+    		<x>View All</x>
+    	</div>
+        <!--Similar artist-->
+    	<div id="similar-artist">
+    		<div id="artist-img"></div>
+    		<div id="song-details">
+    			Taylor Swift
+    			<br/>
+    	    <author>Pop Artist</author>
+    	    </div>
+    	    <i class="fas fa-ellipsis-h"></i>
+    	</div>
+
+    	<div id="similar-artist">
+    		<div id="artist-img"></div>
+    		<div id="song-details">
+    			Taylor Swift
+    			<br/>
+    	    <author>Pop Artist</author>
+    	    </div>
+    	    <i class="fas fa-ellipsis-h"></i>
+    	</div>
+
+    	<div id="similar-artist">
+    		<div id="artist-img"></div>
+    		<div id="song-details">
+    			Taylor Swift
+    			<br/>
+    	    <author>Pop Artist</author>
+    	    </div>
+    	    <i class="fas fa-ellipsis-h"></i>
+    	</div>
+        <!--End of Similar artist-->
+    	<div id="aside-header-2">
+    		Recently Played
+    		<x>View All</x>
+    	</div>
+        <!--Recently Played Songs-->
+        <!--Song 1-->
+    	<div id="song">
+    			<div id="song-number">
+    			    01
+    			    <img src="https://upload.wikimedia.org/wikipedia/en/f/fd/Coldplay_-_Parachutes.png" alt="album image">
+    			    <div id="song-details">
+    			    	Prachutes
+    			    	<br/>
+    			    	<author>ColdPlay</author>
+    			    </div>
+    		    </div>
+    			
+    			<div id="icons">
+    				<i class="far fa-heart"></i>
+    			</div>
+    		</div>
+    		<!--ENd of song 1-->
+    		<!--Song 2-->
+    		<div id="song">
+    			<div id="song-number">
+    			    02
+    			    <img src="https://upload.wikimedia.org/wikipedia/en/6/60/Coldplay_-_A_Rush_of_Blood_to_the_Head_Cover.png" alt="album image">
+    			    <div id="song-details">
+    			    	Rush
+    			    	<br/>
+    			    	<author>ColdPlay</author>
+    			    </div>
+    		    </div>
+    			
+    			<div id="icons">
+    				<i class="far fa-heart"></i>
+    			</div>
+    		</div>
+    		<!--End of song 2-->
+    		<!--Song 3-->
+    		<div id="song">
+    			<div id="song-number">
+    			    03
+    			    <img src="https://upload.wikimedia.org/wikipedia/en/thumb/2/28/Coldplay_X%26Y.svg/440px-Coldplay_X%26Y.svg.png" alt="album image">
+    			    <div id="song-details">
+    			    	X&Y
+    			    	<br/>
+    			    	<author>ColdPlay</author>
+    			    </div>
+    		    </div>
+    			
+    			<div id="icons">
+    				<i class="far fa-heart"></i>
+    			</div>
+    		</div>
+    		<!--End of song 3-->
+    		<!--Song 4-->
+    		<div id="song">
+    			<div id="song-number">
+    			    04
+    			    <img src="https://upload.wikimedia.org/wikipedia/en/b/b2/Coldplay_-_Viva_la_Vida_or_Death_and_All_His_Friends.png" alt="album image">
+    			    <div id="song-details">
+    			    	Viva la Vida
+    			    	<br/>
+    			    	<author>ColdPlay</author>
+    			    </div>
+    		    </div>
+    			
+    			<div id="icons">
+    				<i class="far fa-heart"></i>
+    			</div>
+    		</div>
+    		<!--End of song 4-->
+    		<!--Song 5-->
+    		<div id="song">
+    			<div id="song-number">
+    			    05
+    			    <img src="https://upload.wikimedia.org/wikipedia/en/8/83/Coldplay_-_Mylo_Xyloto_%28Official_Album_Cover%29.png" alt="album image">
+    			    <div id="song-details">
+    			    	My Xoloto
+    			    	<br/>
+    			    	<author>ColdPlay</author>
+    			    </div>
+    		    </div>
+    			
+    			<div id="icons">
+    				<i class="far fa-heart"></i>
+    			</div>
+    		</div>
+    		<!--End of song 5-->
+    		<!--End of recently played songs-->
+    </aside>
+    <!--End of aside-->
+
+    <!--Begining of footer section-->
+	<footer>
+		<!--The bottom music bar which pops up when we play a music-->
+		 <div id="music-bar" class="hide">
+			 <!--Music Icon-->
+			 <div id="music-icon">
+				  <img src="https://static.vecteezy.com/system/resources/thumbnails/000/435/728/small/1404.i033.096.S.m003.c10.Headphones_grunge.jpg" alt="music-icon">
+			 </div>
+			 <!--End of music icon-->
+			 <!--Music title-->
+			 <div id="music-title">
+				 <b>willow</b>
+				 <div id="favourite">
+					<i class="far fa-heart"></i>
+				 </div>
+				 <div id="remove">
+					 <i class="fas fa-ban"></i>
+				 </div>
+				 <br/>
+				 <artist id="music-player-title-artist">Taylor Swift</artist>
+			 </div>
+			 <!--End of music title-->
+			 <!--Play buttons-->
+			 <div id="play-buttons">
+				 <i class="fas fa-random"></i>
+				 <i class="fas fa-backward"></i>
+				 <i class="fas fa-pause-circle"></i>
+				 <i class="fas fa-forward"></i>
+				 <i class="fas fa-undo-alt"></i>
+			 </div>
+			 <!--End of play buttons-->
+			 <!--Music start time-->
+			 <div id="start-time">
+				 0:00
+			 </div>
+			 <!--End of music start time-->
+			 <!--Music end time-->
+			 <div id="end-time">
+				 5:04
+			 </div>
+			 <!--End of music end time-->
+			 <!--Begining of the progress bar-->
+			 <div id="progress-bar">
+				  <div id="circle">
+					  <i class="fas fa-circle"></i>
+				 </div>
+			 </div>
+			 <!--End of progress bar-->
+			 <!--Miscellaneous icons-->
+			 <div id="queue">
+				 <i class="fas fa-bars"></i>
+			 </div>
+			 <div id="volume">
+				 <i class="fas fa-volume-up"></i>
+			 </div>
+			 <div id="progress-bar-volume">
+				 <div id="circle-volume">
+				   <i class="fas fa-circle"></i>
+				 </div>
+			 </div>
+			 <!--End of miscellaneous icons-->
+		 </div>
+		 <!--End of music bar-->
+		</footer>
+		<!--End of footer section-->
+	 </body>
+	 <!--End of body section-->
+	 </html>
+	 <!--End of html code-->
+	 
+		 
+																						</div>
+

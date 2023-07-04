@@ -1,0 +1,504 @@
+<!DOCTYPE html>
+<!--Begining of html code-->
+<html>
+<!--Begining of head section-->
+
+<head>
+	<title>Music Player</title>
+	<!--Linking the CSS stylesheet using extrenal CSS-->
+	<link rel="stylesheet" type="text/css" href="MusicPlayerStyl.css">
+	<!--Font Awesome script for using icons from font awesome-->
+	<script src="https://kit.fontawesome.com/6f0f83005a.js" crossorigin="anonymous"></script>
+	<!--Adds responsiveness to the website-->
+	<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1" />
+</head>
+
+<body>
+	<nav>
+
+		<div class="music-player">
+			<div class="music-player-logo">
+				<img src="https://cdn.pixabay.com/photo/2020/09/07/13/32/music-5551865_1280.jpg">
+			</div>
+			<div class="title-tag">
+				Music
+				<br>
+				<b>
+					Player
+				</b>
+			</div>
+		</div>
+		<div class="search-bar">
+			<div class="serach-bar-utility">
+				<form>
+					<input type="text" id="fname" placeholder="search..." name="fname">
+					<i class="fas fa-search"></i>
+				</form>
+			</div>
+			<div class="notification">
+				<i class="fas fa-bell"></i>
+			</div>
+			<div class="user">
+				<img
+					src="https://media.licdn.com/dms/image/C5603AQF32ogWbjGpZA/profile-displayphoto-shrink_800_800/0/1638118580742?e=2147483647&v=beta&t=sS1F6MNyOtzt8P970KCIasR9cdkAHYRvDpE3bJNxNQI">
+			</div>
+		</div>
+	</nav>
+	<main>
+		<div class="new-release">
+			<img
+				src="https://media.istockphoto.com/id/1205230700/vector/sauce.jpg?s=612x612&w=0&k=20&c=nY-OZW4FTkmilhw1oZgsyDfPeT36zOth58Tv0H8-Em0=">
+			<img src="https://c.saavncdn.com/479/Mood-Booster-English-2019-20190607041417-500x500.jpg">
+			<img
+				src="https://static.vecteezy.com/system/resources/thumbnails/008/909/541/small/edm-logo-edm-letter-edm-letter-logo-design-initials-edm-logo-linked-with-circle-and-uppercase-monogram-logo-edm-typography-for-technology-business-and-real-estate-brand-vector.jpg">
+		</div>
+		<div class="latest-release">
+			<!--Heading-->
+			<h2>Latest Release</h2>
+			<div class="latest-release-items">
+				<div class="latest-release-item">
+					<div class="latest-release-img">
+						<div class="latest-release-img-button" class="hide">
+							<a href="#music-bar" class="font-color"><i class="fas fa-play"></i></a>
+						</div>
+					</div>
+					<div class="item">
+						<b>willow</b>
+						<br>
+						<b>December &nbsp 3.34 </b>
+					</div>
+					<div id="dropdown">
+						<i class="fas fa-chevron-circle-down">
+							<div id="dropdown-menu">
+								<div id="dropdown-list">
+									<i class="fas fa-play"></i>
+									&nbsp;
+									<a href="#music-bar">Play Now</a>
+								</div>
+								<hr />
+								<div id="dropdown-list">
+									<i class="fas fa-plus"></i>
+									&nbsp;
+									<a href="#latest-release">Add to Queue</a>
+								</div>
+								<hr />
+								<div id="dropdown-list">
+									<i class="fas fa-plus"></i>
+									&nbsp;
+									<a href="#latest-release">Add to Favourites</a>
+								</div>
+								<hr />
+								<div id="dropdown-list">
+									<i class="fas fa-exclamation-circle"></i>
+									&nbsp;
+									<a href="#latest-release">Get Info</a>
+								</div>
+							</div>
+						</i>
+					</div>
+				</div>
+				<div class="latest-release-item">
+					<div class="latest-release-img">
+						<div class="latest-release-img-button" class="hide">
+							<a href="#music-bar" class="font-color"><i class="fas fa-play"></i></a>
+						</div>
+					</div>
+					<div class="item">
+						<b>Motel</b>
+						<br>
+						<b>December &nbsp 3.34 </b>
+					</div>
+					<div id="dropdown">
+						<i class="fas fa-chevron-circle-down">
+							<div id="dropdown-menu">
+								<div id="dropdown-list">
+									<i class="fas fa-play"></i>
+									&nbsp;
+									<a href="#music-bar">Play Now</a>
+								</div>
+								<hr />
+								<div id="dropdown-list">
+									<i class="fas fa-plus"></i>
+									&nbsp;
+									<a href="#latest-release">Add to Queue</a>
+								</div>
+								<hr />
+								<div id="dropdown-list">
+									<i class="fas fa-plus"></i>
+									&nbsp;
+									<a href="#latest-release">Add to Favourites</a>
+								</div>
+								<hr />
+								<div id="dropdown-list">
+									<i class="fas fa-exclamation-circle"></i>
+									&nbsp;
+									<a href="#latest-release">Get Info</a>
+								</div>
+							</div>
+						</i>
+					</div>
+				</div>
+				<div class="latest-release-item">
+					<div class="latest-release-img">
+						<div class="latest-release-img-button" class="hide">
+							<a href="#music-bar" class="font-color"><i class="fas fa-play"></i></a>
+						</div>
+					</div>
+					<div class="item">
+						<b>SOIT</b>
+						<b>GOES</b>
+						<br>
+						<b>December &nbsp 3.34 </b>
+					</div>
+					<div id="dropdown">
+						<i class="fas fa-chevron-circle-down">
+							<div id="dropdown-menu">
+								<div id="dropdown-list">
+									<i class="fas fa-play"></i>
+									&nbsp;
+									<a href="#music-bar">Play Now</a>
+								</div>
+								<hr />
+								<div id="dropdown-list">
+									<i class="fas fa-plus"></i>
+									&nbsp;
+									<a href="#latest-release">Add to Queue</a>
+								</div>
+								<hr />
+								<div id="dropdown-list">
+									<i class="fas fa-plus"></i>
+									&nbsp;
+									<a href="#latest-release">Add to Favourites</a>
+								</div>
+								<hr />
+								<div id="dropdown-list">
+									<i class="fas fa-exclamation-circle"></i>
+									&nbsp;
+									<a href="#latest-release">Get Info</a>
+								</div>
+							</div>
+						</i>
+					</div>
+				</div>
+				<div class="latest-release-item">
+					<div class="latest-release-img">
+						<div class="latest-release-img-button" class="hide">
+							<a href="#music-bar" class="font-color"><i class="fas fa-play"></i></a>
+						</div>
+					</div>
+					<div class="item">
+						<b>Solom </b>
+						<b>Jaye</b>
+						<br>
+						<b>December &nbsp 3.34 </b>
+					</div>
+					<div id="dropdown">
+						<i class="fas fa-chevron-circle-down">
+							<div id="dropdown-menu">
+								<div id="dropdown-list">
+									<i class="fas fa-play"></i>
+									&nbsp;
+									<a href="#music-bar">Play Now</a>
+								</div>
+								<hr />
+								<div id="dropdown-list">
+									<i class="fas fa-plus"></i>
+									&nbsp;
+									<a href="#latest-release">Add to Queue</a>
+								</div>
+								<hr />
+								<div id="dropdown-list">
+									<i class="fas fa-plus"></i>
+									&nbsp;
+									<a href="#latest-release">Add to Favourites</a>
+								</div>
+								<hr />
+								<div id="dropdown-list">
+									<i class="fas fa-exclamation-circle"></i>
+									&nbsp;
+									<a href="#latest-release">Get Info</a>
+								</div>
+							</div>
+						</i>
+					</div>
+				</div>
+
+
+
+
+			</div>
+		</div>
+		<div class="popular-artist">
+			<h2>Popular Artist</h2>
+		</div>
+		<div class="popular-artist-items">
+			<div class="popular-artist-img">
+				<a href="saifNext.html">
+					<img src="https://people.com/thmb/Xqce6e4xMWVRG3uYeVmvWSw-ttI=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc():focal(719x429:721x431)/ed-sheeran-d7a7c1e2f4e641938d37c3830be2944b.jpg"
+						alt="HTML tutorial">
+				</a>
+				<h4>Ed Shreeran</h4>
+			</div>
+			<div class="popular-artist-img">
+				<a href="saifNext.html">
+					<img src="https://imgnew.outlookindia.com/public/uploads/articles/2021/10/16/a735f54d15c64fa3f4e78f2a88f7aa0b--chris-martin-coldplay-band-photos_adobespark.jpg"
+						alt="HTML tutorial">
+				</a>
+				<h4>ColdPlay</h4>
+			</div>
+			<div class="popular-artist-img">
+				<a href="saifNext.html">
+					<img src="https://upload.wikimedia.org/wikipedia/commons/1/10/Zayn_Wiki_%28cropped%29.jpg"
+						alt="HTML tutorial">
+				</a>
+				<h4>Zayn</h4>
+			</div>
+			<div class="popular-artist-img">
+				<a href="saifNext.html">
+					<img src="https://www.pinkvilla.com/files/styles/amp_metadata_content_image/public/charlie_puth.jpg"
+						alt="HTML tutorial">
+				</a>
+				<h4>Charlie Puth</h4>
+			</div>
+		</div>
+
+		<div class="playlist">
+			<!--Playlist item 1-->
+			<div class="playlist-item-1">
+				<div class="text">
+					Stations
+				</div>
+			</div>
+			<!--Playlist item 1-->
+			<div class="playlist-item-2">
+
+			</div>
+			<!--Playlist item 1-->
+			<div class="playlist-item-3">
+
+			</div>
+			<!--Playlist item 1-->
+			<div class="playlist-item-4">
+
+			</div>
+			<!--Playlist item 1-->
+			<div class="playlist-item-5">
+
+			</div>
+			<div class="playlist-item-6">
+
+			</div>
+			<div class="playlist-item-7">
+
+			</div>
+			<div class="playlist-item-8">
+
+			</div>
+		</div>
+		<div class="new-release-2">
+			<img src="https://i.scdn.co/image/ab67616d0000b273a24ce281e4b458eb83fa9c48">
+			<img
+				src="https://m.economictimes.com/thumb/msid-98665361,width-1599,height-1066,resizemode-4,imgsize-75680/dj.jpg">
+			<img src="https://www.fabhotels.com/blog/wp-content/uploads/2020/05/road-trip-hacks-tips-600.jpg">
+		</div>
+		<div class="popular-artist">
+			<h2>Latest English</h2>
+		</div>
+		<div class="popular-artist-items">
+			<div class="popular-artist-img">
+				<a href="#music-bar">
+					<img src="https://i.ytimg.com/vi/eLOBUIhSVFU/maxresdefault.jpg" alt="HTML tutorial">
+				</a>
+				<h4>N95</h4>
+				<h4>January 2022</h4>
+			</div>
+			<div class="popular-artist-img">
+				<a href="#music-bar">
+					<img src="https://e7.pngegg.com/pngimages/15/904/png-clipart-bam-youtube-business-management-kleine-piraat-internetradio-festivals-text-logo.png"
+						alt="HTML tutorial">
+				</a>
+				<h4>Bam-Bam</h4>
+				<h4>February 2022</h4>
+			</div>
+			<div class="popular-artist-img">
+				<a href="#music-bar">
+					<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT7heqHy44EUZnFDO0l8bMc9haoOP__MLhNeWqUbomVJw&s"
+						alt="HTML tutorial">
+				</a>
+				<h4>Hello World</h4>
+				<h4>March 2022</h4>
+			</div>
+			<div class="popular-artist-img">
+				<a href="#music-bar">
+					<img src="https://i.ytimg.com/vi/RUmdWdEgHgk/maxresdefault.jpg" alt="HTML tutorial">
+				</a>
+				<h4>When You Are Gone</h4>
+				<h4>April 2022</h4>
+			</div>
+		</div>
+		<div class="popular-artist">
+			<h2>Latest Hindi</h2>
+		</div>
+		<div class="popular-artist-items">
+			<div class="popular-artist-img">
+				<a href="#music-bar">
+					<img src="https://c.ndtvimg.com/2021-02/da227oio_emraan-hashmi-instagram_625x300_17_February_21.jpg"
+						alt="HTML tutorial">
+				</a>
+				<h4>Lut Gaye</h4>
+				<h4>January 2022</h4>
+			</div>
+			<div class="popular-artist-img">
+				<a href="#music-bar">
+					<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQlBDxUrDzvXFAU4u8g6HtdDDEPFQQhIeK6NazEO61tOw&s"
+						alt="HTML tutorial">
+				</a>
+				<h4>Jhume Jo Pathan</h4>
+				<h4>February 2022</h4>
+			</div>
+			<div class="popular-artist-img">
+				<a href="#music-bar">
+					<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQlXrKzPbDkgYVxErz79KBfkZKWbiI8kH8y_yEVdzOzMA&s"
+						alt="HTML tutorial">
+				</a>
+				<h4>Maiya Mainu</h4>
+				<h4>March 2022</h4>
+			</div>
+			<div class="popular-artist-img">
+				<a href="#music-bar">
+					<img src="https://upload.wikimedia.org/wikipedia/en/2/2f/Besharam_Rang_song.jpg"
+						alt="HTML tutorial">
+				</a>
+				<h4>Besharam Rang</h4>
+				<h4>April 2022</h4>
+			</div>
+		</div>
+	</main>
+	<aside>
+		<div class="queue">
+			<h2>Queue</h2>
+			<div class="aside-dropdown">
+				<form>
+					<select>
+						<option class="Queue" label="Queue">Queue</option>
+						<option class="Playlist" lable="Playlist"><a href="MusicPlayerHomePage2.html">Playlist</a>
+						</option>
+					</select>
+				</form>
+			</div>
+		</div>
+		<div style="display:flex;flex-direction:column;align-items:start;">
+			<div class="queue-item">
+				<h4>1</h4>
+				<a href="#"><img
+						src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS2vbKqxenti0cioJZVD35HvEPGgxwVVvuqramW3Ok-Yg&s"></a>
+				<h3> Worry Bout Us</h3>
+			</div>
+			<div class="queue-item">
+				<h4>2</h4>
+				<a href="#"><img
+						src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS_4T1fSiy0d0o-EDYoGbnFwl5VZDC0w8j7Q2MS7fb7Ig&s"></a>
+				<h3> New Skin</h3>
+			</div>
+			<div class="queue-item">
+				<h4>3</h4>
+				<a href="#"><img src="https://upload.wikimedia.org/wikipedia/en/4/45/Dooriecover.jpg"></a>
+				<h3> Doorie</h3>
+			</div>
+			<div class="queue-item">
+				<h4>4</h4>
+				<a href="#"><img
+						src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQGw8_nTsoOd77_8V9QKxoM7-daamowdeE1PZmlX80tWw&s"></a>
+				<h3> Kabhi to pass</h3>
+			</div>
+			<div class="queue-item">
+				<h4>5</h4>
+				<a href="#"><img src="https://upload.wikimedia.org/wikipedia/en/d/d1/Babycoverart.jpg"></a>
+				<h3> BABY</h3>
+			</div>
+			<div class="queue-item">
+				<h4>6</h4>
+				<a href="#"><img src="https://upload.wikimedia.org/wikipedia/en/4/4f/Aashiqui_2.jpeg"></a>
+				<h3>Tum Hi Ho</h3>
+			</div>
+			<div class="queue-item">
+				<h4>7</h4>
+				<a href="#"><img
+						src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRrCYm_qZo0proDcGeqlw4m05bdybGtU1wXgViMqayZdQ&s"></a>
+				<h3>Kahani Suno</h3>
+			</div>
+		</div>
+	</aside>
+	<footer>
+		<!--The bottom music bar which pops up when we play a music-->
+		<div id="music-bar" class="hide">
+			<!--Music Icon-->
+			<div id="music-icon">
+				<img src="https://static.vecteezy.com/system/resources/thumbnails/000/435/728/small/1404.i033.096.S.m003.c10.Headphones_grunge.jpg"
+					alt="music-icon">
+			</div>
+			<!--End of music icon-->
+			<!--Music title-->
+			<div id="music-title">
+				<b>willow</b>
+				<div id="favourite">
+					<i class="far fa-heart"></i>
+				</div>
+				<div id="remove">
+					<i class="fas fa-ban"></i>
+				</div>
+				<br />
+				<artist id="music-player-title-artist">Taylor Swift</artist>
+			</div>
+			<!--End of music title-->
+			<!--Play buttons-->
+			<div id="play-buttons">
+				<i class="fas fa-random"></i>
+				<i class="fas fa-backward"></i>
+				<i class="fas fa-pause-circle"></i>
+				<i class="fas fa-forward"></i>
+				<i class="fas fa-undo-alt"></i>
+			</div>
+			<!--End of play buttons-->
+			<!--Music start time-->
+			<div id="start-time">
+				0:00
+			</div>
+			<!--End of music start time-->
+			<!--Music end time-->
+			<div id="end-time">
+				5:04
+			</div>
+			<!--End of music end time-->
+			<!--Begining of the progress bar-->
+			<div id="progress-bar">
+				<div id="circle">
+					<i class="fas fa-circle"></i>
+				</div>
+			</div>
+			<!--End of progress bar-->
+			<!--Miscellaneous icons-->
+			<div id="queue">
+				<i class="fas fa-bars"></i>
+			</div>
+			<div id="volume">
+				<i class="fas fa-volume-up"></i>
+			</div>
+			<div id="progress-bar-volume">
+				<div id="circle-volume">
+					<i class="fas fa-circle"></i>
+				</div>
+			</div>
+			<!--End of miscellaneous icons-->
+		</div>
+		<!--End of music bar-->
+	</footer>
+	<!--End of footer section-->
+</body>
+<!--End of body section-->
+
+</html>
+<!--End of html code-->
+
+
+</div>
